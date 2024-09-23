@@ -48,7 +48,7 @@ curl_close($ch);
     <h1>Página que te dice cuándo se estrenará la próxima película de Marvel</h1>
     <section>
 
-        <img src="<?= $data["poster_url"]; ?> " alt="Poster de <?= $data["title"]; ?>" width="300" style="border-radius: 10px;">
+        <img src="<?= $data["poster_url"]; ?> " alt="Poster de <?= $data["title"]; ?>" width="250" style="border-radius: 10px;">
     </section>
 
     <hgroup>
@@ -97,11 +97,10 @@ curl_close($ch);
     img {
         margin: 0 auto;
 
-
     }
 
     footer {
-        margin-top: 20px;
+        margin-top: 10px;
         font-size: 0.8rem;
         border-top: 1px solid #6c6a6a; /* Línea suave debajo del h1 */
     }
