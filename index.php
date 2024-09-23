@@ -45,7 +45,7 @@ curl_close($ch);
 </head>
 
 <main>
-    <h1>Página que te dice cuándo se estrenará la próxima película de Marvel</h1>
+    <h2>Página que te dice cuándo se estrenará la próxima película de Marvel</h2>
     <section>
 
         <img src="<?= $data["poster_url"]; ?> " alt="Poster de <?= $data["title"]; ?>" width="250" style="border-radius: 10px;">
@@ -89,7 +89,7 @@ curl_close($ch);
     justify-content: center;
     text-align: center}
 
-    h1 {
+    h2 {
         text-align: center;
         border-bottom: 1px solid #6c6a6a; /* Línea suave debajo del h1 */
     }
